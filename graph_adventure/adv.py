@@ -86,7 +86,6 @@ while len(traversalPath) < 48:
 
 traversalPath = complete_list
 
-
 # TRAVERSAL TEST
 visited_rooms = set()
 player.currentRoom = world.startingRoom
@@ -101,7 +100,6 @@ if len(visited_rooms) == 500:
 else:
     print("TESTS FAILED: INCOMPLETE TRAVERSAL")
     print(f"{500 - len(visited_rooms)} unvisited rooms, only {len(visited_rooms)} explored ")
-
 
 
 # ######
